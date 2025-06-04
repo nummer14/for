@@ -2,8 +2,10 @@ public class Main {
     public static void main(String[] args) {
         int number = 5;
 
-        for (int i = 1; i <= 9; i++ ) {
-            System.out.println(number + " x " + i +" = " + (number * i));
+        for (int i = 1; i <= 19; i++ ) {
+            if (i >= 5) {
+                System.out.println(number + " x " + i + " = " + (number * i));
+            }
         }
     }
 }
